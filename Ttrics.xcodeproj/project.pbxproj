@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40E3852916021DE800F189E6 /* Monster-sprites-physics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40E3852616021DE800F189E6 /* Monster-sprites-physics.plist */; };
+		40E3852A16021DE800F189E6 /* Monster-sprites-physics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40E3852616021DE800F189E6 /* Monster-sprites-physics.plist */; };
+		40E3852B16021DE800F189E6 /* Monster-sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40E3852716021DE800F189E6 /* Monster-sprites.plist */; };
+		40E3852C16021DE800F189E6 /* Monster-sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40E3852716021DE800F189E6 /* Monster-sprites.plist */; };
+		40E3852D16021DE800F189E6 /* Monster-sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E3852816021DE800F189E6 /* Monster-sprites.png */; };
+		40E3852E16021DE800F189E6 /* Monster-sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 40E3852816021DE800F189E6 /* Monster-sprites.png */; };
 		DC3C6FA114B87D4D00DAD281 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3C6FA014B87D4D00DAD281 /* fps_images-hd.png */; };
 		DC3C6FA214B87D4D00DAD281 /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3C6FA014B87D4D00DAD281 /* fps_images-hd.png */; };
 		DC485B1113AA0E5600F2BC70 /* libchipmunk-mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */; };
@@ -85,6 +91,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40E3852616021DE800F189E6 /* Monster-sprites-physics.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Monster-sprites-physics.plist"; sourceTree = "<group>"; };
+		40E3852716021DE800F189E6 /* Monster-sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Monster-sprites.plist"; sourceTree = "<group>"; };
+		40E3852816021DE800F189E6 /* Monster-sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Monster-sprites.png"; sourceTree = "<group>"; };
 		DC3BE97813B4FB71003739CC /* BuildSettings-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BuildSettings-iOS.xcconfig"; sourceTree = "<group>"; };
 		DC3C6FA014B87D4D00DAD281 /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "Resources/fps_images-hd.png"; sourceTree = "<group>"; };
 		DC485B0D13AA0E5600F2BC70 /* libchipmunk-mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libchipmunk-mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -339,6 +348,9 @@
 		DCC1A39413A94F1A005BD75D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				40E3852616021DE800F189E6 /* Monster-sprites-physics.plist */,
+				40E3852716021DE800F189E6 /* Monster-sprites.plist */,
+				40E3852816021DE800F189E6 /* Monster-sprites.png */,
 				DCA7576F14129AD6007A0F73 /* bumper.wav */,
 				DCA7577014129AD6007A0F73 /* pinball-hd.plist */,
 				DCA7577114129AD6007A0F73 /* pinball-hd.pvr.ccz */,
@@ -460,6 +472,9 @@
 				DCA7577F14129AD6007A0F73 /* pinball.pvr.ccz in Resources */,
 				DC3C6FA114B87D4D00DAD281 /* fps_images-hd.png in Resources */,
 				DC65619815114D0200E59F8A /* fps_images-ipadhd.png in Resources */,
+				40E3852916021DE800F189E6 /* Monster-sprites-physics.plist in Resources */,
+				40E3852B16021DE800F189E6 /* Monster-sprites.plist in Resources */,
+				40E3852D16021DE800F189E6 /* Monster-sprites.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +494,9 @@
 				DCA7577E14129AD6007A0F73 /* pinball.plist in Resources */,
 				DCA7578014129AD6007A0F73 /* pinball.pvr.ccz in Resources */,
 				DC3C6FA214B87D4D00DAD281 /* fps_images-hd.png in Resources */,
+				40E3852A16021DE800F189E6 /* Monster-sprites-physics.plist in Resources */,
+				40E3852C16021DE800F189E6 /* Monster-sprites.plist in Resources */,
+				40E3852E16021DE800F189E6 /* Monster-sprites.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
