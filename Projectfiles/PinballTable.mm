@@ -17,6 +17,7 @@
 #import "GB2ShapeCache.h"
 #import "BodyNode.h"
 #import "SimpleAudioEngine.h"
+#import "CCSpriteExtensions.h"
 
 @interface PinballTable (PrivateMethods)
 -(void) initBox2dWorld;
@@ -62,6 +63,20 @@
 		// Set up table elements
 		TableSetup* tableSetup = [TableSetup setupTableWithWorld:world];
 		[self addChild:tableSetup z:-1];
+        
+        
+        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Stercoraro.plist"];
+        CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Stercoraro.png"];
+        [self addChild:spriteSheet];
+        
+        CCSprite *sprite = [CCSprite spriteWithSpriteFrameName:@"l_00000.png"];
+        sprite.position = ccp(240, 130);
+        [self addChild:sprite];
+        [sprite playAnimLoopedWithFormat:@"l_%05d.png" numFrames:6 firstIndex:0 delay:.1 animateTag:1 ];
+
+
+        
+        //        CCSprite* monster = [[CCSprite alloc] init];
 		
 		if ([CCDirector sharedDirector].currentDeviceIsIPad) 
 		{

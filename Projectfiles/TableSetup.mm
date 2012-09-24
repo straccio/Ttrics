@@ -55,18 +55,6 @@
 		[self addBumperAt:ccp(0, 125) inWorld:world];
 		[self addBumperAt:ccp(265, 150) inWorld:world];
 		[self addBumperAt:ccp(27, 244) inWorld:world];
-        
-        
-        [[CCSpriteFrameCache sharedSpriteFrameCache] addSpriteFramesWithFile:@"Monster-sprites.plist"];
-        CCSpriteBatchNode *spriteSheet = [CCSpriteBatchNode batchNodeWithFile:@"Monster-sprites.png"];
-        [self addChild:spriteSheet];
-        
-        CCSprite *sprite = [CCSprite spriteWithSpriteFrameName:@"asd_00000.png"];
-        sprite.position = ccp(240, 160);
-        [spriteSheet addChild:sprite];
-        
-//        CCSprite* monster = [[CCSprite alloc] init];
-    
 
         // Add ball object
 		Ball* ball = [Ball ballWithWorld:world];
